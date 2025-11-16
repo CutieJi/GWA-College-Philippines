@@ -42,30 +42,15 @@ p {
 }
 
 .inputField {
-  display: flex !important;
-  align-items: center !important;
-  gap: 10px !important;
-  width: auto !important;
+  width: 500px;
+  padding: 10px;
+  margin: 10px 0;
+  box-sizing: border-box;
+  border-radius: 8px;
 }
-
-.unitsInput,
-.gradeInput {
-  width: 200px !important;
-}
-
-.deleteBtn {
-  background-color: #FF5555;
-  border: none;
-  color: white;
-  font-weight: bold;
-  padding: 10px 15px;
-  border-radius: 6px;
-  cursor: pointer;
-}
-
 
 input {
-  width: 230px;
+  width: 500px;
   padding: 10px;
   margin: 10px 0;
   box-sizing: border-box;
