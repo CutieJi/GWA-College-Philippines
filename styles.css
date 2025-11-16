@@ -71,6 +71,7 @@ button {
 }
 
 .deleteBtn {
+  border: 1px solid #FF5555;
   color: #FF5555;
 }
 
