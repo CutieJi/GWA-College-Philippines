@@ -70,7 +70,7 @@ button {
   transition: transform 80ms ease-in;
 }
 
-deleteBtn {
+.deleteBtn {
   border-radius: 8px;
   border: 1px solid #4DB557;
   background-color: #4DB557;
