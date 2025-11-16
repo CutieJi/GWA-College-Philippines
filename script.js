@@ -12,20 +12,6 @@ function addInputField() {
   gradeInput.className = "gradeInput";
   gradeInput.pattern = "\\d*\\.?\\d*";
   gradeInput.placeholder = "Grade";
-  var deleteBtn = document.createElement("button");
-  deleteBtn.textContent = "X";
-  deleteBtn.style.backgroundColor = "#FF5555";
-  deleteBtn.style.border = "none";
-  deleteBtn.style.color = "white";
-  deleteBtn.style.fontWeight = "bold";
-  deleteBtn.style.padding = "10px 15px";
-  deleteBtn.style.borderRadius = "6px";
-  deleteBtn.style.cursor = "pointer";
-
-  // ❌ delete action
-  deleteBtn.onclick = function () {
-    newInputField.remove();
-  };
   newInputField.appendChild(unitsInput);
   newInputField.appendChild(gradeInput);
   inputFieldsDiv.appendChild(newInputField);
