@@ -12,7 +12,7 @@ function addInputField() {
   gradeInput.className = "gradeInput";
   gradeInput.pattern = "\\d*\\.?\\d*";
   gradeInput.placeholder = "Grade";
-  var deleteBtn = document.createElement("button");
+  var deleteBtn = document.createElement("dbutton");
   deleteBtn.className = "deleteBtn";
   deleteBtn.textContent = "×";
 
