@@ -2,10 +2,6 @@ function addInputField() {
   var inputFieldsDiv = document.getElementById("inputFields");
   var newInputField = document.createElement("div");
   newInputField.className = "inputField";
-  var subjectInput = document.createElement("input");
-  subjectInput.type = "text";
-  subjectInput.className = "subjectInput";
-  subjectInput.placeholder = "Subject";
   var unitsInput = document.createElement("input");
   unitsInput.type = "number";
   unitsInput.className = "unitsInput";
@@ -57,7 +53,6 @@ function calculateGWA() {
 function resetFields() {
   var inputFields = document.getElementsByClassName("inputField");
   for (var i = 0; i < inputFields.length; i++) {
-    inputFields[i].getElementsByClassName("subjectInput")[0].value = "";
     inputFields[i].getElementsByClassName("unitsInput")[0].value = "";
     inputFields[i].getElementsByClassName("gradeInput")[0].value = "";
   }
