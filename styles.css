@@ -44,25 +44,35 @@ p {
 .inputField {
   display: flex;
   align-items: center;
-  gap: 10px;
-  margin: 10px 0;
+  gap: 15px;
+  margin: 15px 0;
 }
 
 .unitsInput,
 .gradeInput {
-  width: 200px;
-  padding: 10px;
+  width: 180px;
+  padding: 12px;
   border-radius: 8px;
+  border: 1px solid #ddd;
+  font-size: 16px;
 }
 
 .deleteBtn {
-  background-color: #ff5555;
-  color: white;
+  width: 55px;
+  height: 55px;
+  border-radius: 50%;
   border: none;
-  padding: 10px 15px;
+  font-size: 26px;
   font-weight: bold;
-  border-radius: 8px;
+  color: white;
   cursor: pointer;
+
+  background: linear-gradient(135deg, #ff6b6b, #d9363e);
+  display: flex;
+  justify-content: center;
+  align-items: center;
+
+  box-shadow: 0 4px 10px rgba(0,0,0,0.15);
 }
 
 
