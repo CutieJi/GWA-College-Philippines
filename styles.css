@@ -5,7 +5,8 @@
 }
 
 body {
-  background: #f6f5f7;
+  background: url("ucc.jpg") no-repeat center center fixed;
+  background-size: cover;
   display: flex;
   justify-content: center;
   align-items: center;
