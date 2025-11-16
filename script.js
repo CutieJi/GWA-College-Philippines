@@ -12,7 +12,6 @@ function addInputField() {
   gradeInput.className = "gradeInput";
   gradeInput.pattern = "\\d*\\.?\\d*";
   gradeInput.placeholder = "Grade";
-  newInputField.appendChild(subjectInput);
   newInputField.appendChild(unitsInput);
   newInputField.appendChild(gradeInput);
   inputFieldsDiv.appendChild(newInputField);
