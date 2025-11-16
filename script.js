@@ -14,14 +14,14 @@ function addInputField() {
   gradeInput.placeholder = "Grade";
   var deleteBtn = document.createElement("button");
   deleteBtn.className = "deleteBtn";
-  deleteBtn.textContent = "X";
+  deleteBtn.textContent = "×";
 
   deleteBtn.onclick = function () {
     newInputField.remove();
   };
   newInputField.appendChild(unitsInput);
-  newInputField.appendChild(deleteBtn)
   newInputField.appendChild(gradeInput);
+  newInputField.appendChild(deleteBtn);
   inputFieldsDiv.appendChild(newInputField);
 }
 
