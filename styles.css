@@ -22,8 +22,8 @@ body {
   width: 768px;
   max-width: 100%;
   min-height: 550px;
-  margin: 45px auto;
-  padding: 20px;
+  margin-top: 45px;
+  margin-bottom: 45px;
   display: flex;
   flex-direction: column;
   align-items: center;
@@ -32,60 +32,39 @@ body {
 
 h1 {
   font-weight: bold;
-  margin-top: 20px;
-  text-align: center;
+  margin-top: 50px;
 }
 
 p {
-  margin: 25px 0 25px 0;
+  margin: 35px 0 35px 0;
   font-size: 20px;
   font-weight: bold;
 }
 
 .inputField {
-  display: flex;
-  align-items: center;
-  gap: 12px;
-  margin: 12px 0;
-  flex-wrap: wrap; /* allow stacking on mobile */
-  width: 100%;
-}
-
-.unitsInput,
-.gradeInput {
-  flex: 1;
-  min-width: 120px;
-  padding: 12px;
+  width: 500px;
+  padding: 10px;
+  margin: 10px 0;
+  box-sizing: border-box;
   border-radius: 8px;
-  border: 1px solid #ddd;
-  font-size: 16px;
 }
 
-.deleteBtn {
-  width: 50px;
-  height: 50px;
-  border-radius: 50%;
-  border: none;
-  font-size: 24px;
-  font-weight: bold;
-  color: white;
-  cursor: pointer;
-  background: linear-gradient(135deg, #ff6b6b, #d9363e);
-  display: flex;
-  justify-content: center;
-  align-items: center;
-  box-shadow: 0 4px 10px rgba(0,0,0,0.15);
+input {
+  width: 500px;
+  padding: 10px;
+  margin: 10px 0;
+  box-sizing: border-box;
+  border-radius: 8px;
 }
 
-/* Buttons */
 button {
   border-radius: 8px;
   border: 1px solid #4DB557;
   background-color: #4DB557;
   color: #ffffff;
-  font-size: 14px;
+  font-size: 12px;
   font-weight: bold;
-  padding: 12px 35px;
+  padding: 12px 45px;
   letter-spacing: 1px;
   text-transform: uppercase;
   transition: transform 80ms ease-in;
@@ -96,46 +75,12 @@ button#resetButton {
   border: 1px solid #FF5555;
 }
 
-.button-container {
-  display: flex;
-  gap: 10px;
-  margin-bottom: 20px;
-  flex-wrap: wrap;
-  justify-content: center;
-}
-
-/* Mobile adjustments */
-@media screen and (max-width: 480px) {
+@media screen and (max-width: 768px) {
   .container {
-    width: 95%;
-    padding: 15px;
+    height: 80%;
+    width: 90%;
   }
 
-  .inputField {
-    flex-direction: column; /* stack inputs vertically */
-    gap: 8px;
-  }
-
-  .unitsInput,
-  .gradeInput {
-    width: 100%;
-  }
-
-  .deleteBtn {
-    margin: auto;
-  }
-
-  .button-container {
-    flex-direction: column;
-    gap: 10px;
-    width: 100%;
-  }
-
-  button {
-    width: 100%;
-    text-align: center;
-  }
-}
   input {
     width: 280px;
     padding: 10px;
