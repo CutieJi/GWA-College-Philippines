@@ -42,12 +42,29 @@ p {
 }
 
 .inputField {
-  width: 500px;
-  padding: 10px;
+  display: flex;
+  align-items: center;
+  gap: 10px;
   margin: 10px 0;
-  box-sizing: border-box;
+}
+
+.unitsInput,
+.gradeInput {
+  width: 200px;
+  padding: 10px;
   border-radius: 8px;
 }
+
+.deleteBtn {
+  background-color: #ff5555;
+  color: white;
+  border: none;
+  padding: 10px 15px;
+  font-weight: bold;
+  border-radius: 8px;
+  cursor: pointer;
+}
+
 
 input {
   width: 500px;
